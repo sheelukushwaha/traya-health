@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    background: transparent;
+    &.sticky {
+        top: 0;
+        z-index: 10;
+        position: fixed;
+        background: #414042;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        align-items: center;
+        height: 60px;
+
+        .logo {
+            padding: 18px 12px 12px 12px;
+            img {
+                height: 37.79px;
+                width: auto;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+
+            a {
+                padding: 10px 11px;
+                cursor: pointer;
+
+                img {
+                    width: 26px;
+                    height: 26px;
+                }
+
+                svg {
+                    width: 26px;
+                    height: 26px;
+                    fill: #fff;
+                }
+            }
+        }
+    }
+}

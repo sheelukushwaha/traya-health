@@ -1,0 +1,197 @@
+nav {
+    background-color: #e0e4e5;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-body);
+    width: 100%;
+    transition: .45s cubic-bezier(.29,.63,.44,1);   
+    overflow: hidden;
+    z-index: 1;
+
+    .mega-menu-wrapper {
+        padding: 0 44px;
+        background-color: #e0e4e5;
+        background-image: url(//traya.health/cdn/shop/files/mega-menu-bg-d.webp?v=1662614040);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        @media screen and (min-width: 750px) {
+            padding: 0 44px;
+            background-color: #e0e4e5;
+            background-image: url(//traya.health/cdn/shop/files/mega-menu-bg-d.webp?v=1662614040);
+            background-position: left bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow-y: scroll;
+            height: 100vh;
+        }
+    
+        a,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            font-family: Nunito Sans, sans-serif !important;
+            color: #414042;
+        }
+    
+        .topHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            .logo {
+                padding: 18px 12px 12px 12px;
+    
+                img {
+                    height: 37.79px;
+                    width: auto;
+                }
+            }
+    
+            .close {
+                height: 19px;
+                width: 19px;
+            }
+        }
+    
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            text-align: left;
+            max-width: 800px;
+            font-family: Nunito Sans, sans-serif;
+    
+            h3 {
+                font-size: 18px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.67;
+                letter-spacing: normal;
+                margin: 0 0 8px;
+            }
+    
+            a {
+                padding: 8px 0;
+                display: block;
+    
+                &:hover {
+                    color: #000;
+                    text-decoration: underline !important;
+                }
+            }
+    
+            a,
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.2;
+                letter-spacing: -.45px;
+            }
+    
+            .leftSide {
+                flex-basis: 500px;
+                margin-right: 20px;
+    
+                p {
+                    max-width: 75%;
+                    margin: 0 0 16px;
+                }
+    
+                ul {
+                    padding: 0;
+    
+                    li {
+                        pointer-events: auto;
+                        list-style: none;
+    
+                        a {
+                            border-radius: 8px;
+                            border: 1px solid #414042;
+                            font-size: 14px;
+                            font-weight: 800;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.75;
+                            letter-spacing: normal;
+                            text-align: center;
+                            color: #414042;
+                            display: inline-block;
+                            padding: 2px 14px;
+                            margin-bottom: 13px;
+                            text-decoration: none;
+    
+                            &:hover {
+                                background: #414042;
+                                border-color: #414042;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .rightSide {
+                flex-basis: 200px;
+    
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+    
+                    li {
+                        border-bottom: 1px solid #414042;
+    
+                        &:first-child a {
+                            padding-top: 0;
+                        }
+    
+                        &:last-child {
+                            border: none;
+                        }
+    
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+    
+                    &.socialIcon {
+                        display: flex;
+    
+                        li {
+                            border: 0;
+                            margin: 0 10px;
+                            width: 27.2px;
+                            height: 27.2px;
+    
+                            &:first-child {
+                                margin-left: 0;
+                            }
+    
+                            a {
+                                padding: 0;
+    
+                                img {
+                                    overflow-clip-margin: content-box;
+                                    overflow: clip;
+                                }
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

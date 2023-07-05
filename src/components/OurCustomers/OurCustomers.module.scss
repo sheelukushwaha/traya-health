@@ -1,0 +1,38 @@
+.customers {
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+
+    .title {
+        font-size: 44px;
+        font-weight: 800;
+        text-align: center;
+        line-height: 1.25;
+        letter-spacing: -.22px;
+        margin-bottom: 30px !important;
+
+        @media only screen and (max-width: 1199.98px) and (min-width: 992px) {
+            font-size: 40px;
+        }
+    }
+    .btn {
+        a:hover {
+            background: #b7d340;
+            border-color: #b7d340;
+            color: #fff;
+        }
+    }
+}

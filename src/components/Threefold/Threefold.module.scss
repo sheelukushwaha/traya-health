@@ -1,0 +1,84 @@
+.threefold {
+    background: url(//traya.health/cdn/shop/files/home-sec_26f98611-d0f2-4816-8440-1502e24c9ed2.jpg?v=1662962262);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+    padding: 30px 0 20px;
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin: 24px 42px 0;
+        margin-right: auto;
+        margin-left: auto;
+
+        padding: 15px;
+
+        @media (min-width: 992px) {
+            max-width: 960px;
+        }
+
+        @media (min-width: 1200px) {
+            max-width: 1140px;
+        }
+
+        .heading {
+            p {
+                font-size: 44px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.25;
+                letter-spacing: -.22px;
+                margin: 0 0 30px;
+                position: relative;
+            }
+        }
+
+        .contentWrapper {
+            max-width: 690px;
+            margin: 0 auto;
+
+            .subheading {
+                font-size: 18px;
+                line-height: 1.61;
+                color: #414042;
+                padding: 24px 0 !important;
+                letter-spacing: 0;
+                margin: 0;
+
+            }
+
+            .contentWays {
+                line-height: 1.03;
+                color: #414042;
+                font-size: 19px;
+                font-weight: 600;
+                letter-spacing: normal;
+                margin: 0 0 24px;
+                padding: 8px 0 0;
+
+                span {
+                    color: #95b266 !important;
+                    margin: 0 8px;
+                }
+
+            }
+
+            .description {
+                font-size: 24px;
+                line-height: 1.5;
+                letter-spacing: -0.24px;
+                color: #939598;
+            }
+
+            .btn {
+                a:hover {
+                    background: #b7d340;
+                    border-color: #b7d340;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

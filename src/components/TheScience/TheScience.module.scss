@@ -1,0 +1,100 @@
+.science {
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    @media (min-width: 576px) {
+        max-width: 540px;
+    }
+
+    @media (min-width: 768px) {
+        max-width: 720px;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 960px;
+    }
+    @media (min-width: 1200px) {
+        max-width: 1140px;
+    }
+
+    img {
+        padding: 10px;
+        max-width: 100%;
+        vertical-align: middle;
+        opacity: 1;
+        transition: opacity .3s;
+        border: 0;
+    }
+
+    .deskImg {
+        width: 100% !important;
+        display: none;
+
+        @media (min-width: 768px) {
+            display: block !important;
+        }
+    }
+
+    .mobImg {
+        @media (min-width: 768px) {
+            display: none !important;
+        }
+    }
+
+    .regimenContent {
+        .textContent {
+            position: absolute;
+            z-index: 1;
+            top: 15%;
+            max-width: 700px;
+            padding: 0 40px;
+            left: 0;
+
+            .subHeading {
+                font-size: 20px;
+                margin-top: 0;
+                margin-bottom: 1rem;
+                font-family: Nunito Sans, sans-serif !important;
+            }
+
+            h2 {
+                font-size: 51px;
+                font-weight: 300;
+                line-height: 0.74;
+                letter-spacing: -0.26px;
+                color: #414042;
+
+                strong {
+                    font-size: 75px;
+                    font-weight: 900 !important;
+                    line-height: 1.47;
+                    letter-spacing: -0.75px;
+                    color: #414042;
+                    position: relative;
+                }
+            }
+
+            .heading {
+                font-size: 24px;
+                line-height: 1.47;
+                letter-spacing: -0.26px;
+                color: #231f20;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+                padding: 25px 0px 30px 0px;
+                font-family: Nunito Sans, sans-serif !important;
+            }
+
+            .btn {
+                a:hover {
+                    background: #b7d340;
+                    border-color: #b7d340;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

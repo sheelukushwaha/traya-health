@@ -1,0 +1,81 @@
+.container {
+    background-image: url('https://traya.health/cdn/shop/files/Group_102353010_1_1.webp?v=1685711125&width=2000');
+    min-height: 90vh;
+    width: 100%;
+    background-position: top;
+    background-size: cover;
+    object-position: center center;
+    transition: opacity .4s cubic-bezier(.25, .46, .45, .94);
+    margin-top: -60px;
+    padding-top: 10px;
+    text-align: left;
+
+    .banner {
+        padding: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .heading1 {
+            font-family: 'Fredoka', sans-serif;
+            font-size: 35px;
+            font-weight: 900;
+            color: #303032;
+            margin: 100px 0 0;
+        }
+
+        .heading2 {
+            margin: 16px 0 0;
+            padding: 0 0 24px;
+
+            span {
+                font-size: 40px;
+                color: #303032;
+                margin: 0;
+                max-width: 490px;
+                line-height: 1.2;
+                position: relative;
+                padding-bottom: 1.5rem;
+                font-weight: 700;
+
+                @media (min-width: 768px) and (max-width: 1023.98px) {
+                    font-size: 25.5337px;
+                }
+
+                @media (min-width: 767px) {
+                    font-size: 45px;
+
+                }
+            }
+        }
+
+        .heading3 {
+            position: relative;
+
+            .last {
+                font-size: 27px;
+                margin-top: 0;
+                padding-top: 40px;
+                color: #414042;
+                position: relative;
+
+                &:before {
+                    content: " ";
+                    width: 102.7px;
+                    height: 8px;
+                    border-radius: 4px;
+                    left: 0;
+                    display: block;
+                    position: relative;
+                    background: #414042;
+                    margin-bottom: 30px;
+                }
+
+                @media (min-width: 767px) {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+}
